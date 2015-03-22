@@ -1,17 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.class
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
